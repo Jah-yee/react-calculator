@@ -4,7 +4,7 @@ import ButtonSection from './components/ButtonSection'
 import AppHeader from './components/AppHeader'
 import { useState } from 'react'
 function App() {
-    let buttons=['C','1','2','+','3','4','-','5','6','*','7','8','.','9','0','=']
+    let buttons=['C','1','2','+','3','4','-','5','6','*','7','8','.','9','0','/','=']
     const [display,setDisplay]=useState('')
 
     const buttonHandling=(event)=>{
