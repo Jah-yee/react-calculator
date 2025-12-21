@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sajidBt{
+    width:70px;
+    margin:10px;
+    height: 70px;
+}
